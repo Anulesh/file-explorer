@@ -1,9 +1,18 @@
-export interface fileOrFolder {
+export interface FileOrFolder {
   id: string;
   name: string;
-  type: folderTypes;
-  data?: fileOrFolder[];
+  type: FolderTypes | string;
+  meta?: string;
+  data?: FileOrFolder[];
 }
-export type folderDataType = Omit<fileOrFolder, 'id'>;
-type folderTypes = 'file' | 'folder';
-export type fileOrFolderNull = fileOrFolder | null;
+export type FolderDataType = Omit<FileOrFolder, 'id'>;
+type FolderTypes = 'file' | 'folder';
+export type FileOrFolderNull = FileOrFolder | null;
+export interface Response {
+  status: number;
+  statusText: string;
+  data?: FileOrFolder | null;
+}
+export interface FolderInfoType extends Omit<FileOrFolder, 'data'> {
+  path: string;
+}

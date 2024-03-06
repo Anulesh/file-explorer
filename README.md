@@ -6,26 +6,20 @@
   <a aria-label="Build" href="https://github.com/Anulesh/file-explorer/actions/workflows/node.js.yml?query=workflow%3A%22%22File+Explorer%22%22++">
     <img alt="GitHub branch checks state" src="https://img.shields.io/github/checks-status/Anulesh/file-explorer/main?label=CI&logo=github&style=flat-square">
   </a>
-  <a aria-label="Codefactor grade" href=https://www.codefactor.io/repository/github/belgattitude/slipgen-monorepo">
-    <img alt="Codefactor" src="https://img.shields.io/codefactor/grade/github/belgattitude/slipgen-monorepo?label=Codefactor&logo=codefactor&style=flat-quare&labelColor=000000" />
+  <a aria-label="Codefactor grade" href=https://www.codefactor.io/repository/github/Anulesh/file-explorer">
+    <img alt="Codefactor" src="https://img.shields.io/codefactor/grade/github/Anulesh/file-explorer?label=Codefactor&logo=codefactor&style=flat-quare&labelColor=000000" />
   </a>
-  <a aria-label="CodeClimate maintainability" href="https://codeclimate.com/github/belgattitude/slipgen-monorepo">
-    <img alt="Maintainability" src="https://img.shields.io/codeclimate/maintainability/belgattitude/slipgen-monorepo?label=Maintainability&logo=code-climate&style=flat-quare&labelColor=000000" />
-  </a>
-  <a aria-label="CodeClimate technical debt" href="https://codeclimate.com/github/belgattitude/slipgen-monorepo">
-    <img alt="Techdebt" src="https://img.shields.io/codeclimate/tech-debt/belgattitude/slipgen-monorepo?label=TechDebt&logo=code-climate&style=flat-quare&labelColor=000000" />
-  </a>
-  <a aria-label="Codacy grade" href="https://www.codacy.com/gh/belgattitude/slipgen-monorepo/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=belgattitude/slipgen-monorepo&amp;utm_campaign=Badge_Grade">
+  <a aria-label="Codacy grade" href="https://www.codacy.com/gh/Anulesh/file-explorer/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Anulesh/file-explorer&amp;utm_campaign=Badge_Grade">
     <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/dff9c944af284a0fad4e165eb1727467?logo=codacy&style=flat-square&labelColor=000&label=Codacy">
   </a>
   <a aria-label="LoC">  
-    <img alt="LoC" src="https://img.shields.io/tokei/lines/github/belgattitude/slipgen-monorepo?style=flat-quare&labelColor=000000" />
+    <img alt="LoC" src="https://img.shields.io/tokei/lines/github/Anulesh/file-explorer?style=flat-quare&labelColor=000000" />
   </a>
-  <a aria-label="Top language" href="https://github.com/nerdcosmic/slipgen-monorepo/search?l=typescript">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/belgattitude/slipgen-monorepo?style=flat-square&labelColor=000&color=blue">
+  <a aria-label="Top language" href="https://github.com/Anulesh/file-explorer/search?l=typescript">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Anulesh/file-explorer?style=flat-square&labelColor=000&color=blue">
   </a>
-  <a aria-label="Licence" href="https://github.com/nerdcosmic/slipgen-monorepo/blob/main/LICENSE">
-    <img alt="Licence" src="https://img.shields.io/github/license/belgattitude/slipgen-monorepo?style=flat-quare&labelColor=000000" />
+  <a aria-label="Licence" href="https://github.com/Anulesh/file-explorer/blob/main/LICENSE">
+    <img alt="Licence" src="https://img.shields.io/github/license/Anulesh/file-explorer?style=flat-quare&labelColor=000000" />
   </a>
 </p>
 
@@ -45,30 +39,30 @@ Useful to
 <table>
   <tr>
     <td>
-      <a href="https://www.jetbrains.com/?ref=belgattitude" target="_blank">
+      <a href="https://www.jetbrains.com/?ref=Anulesh" target="_blank">
          <img width="65" src="https://asset.brandfetch.io/idarKiKkI-/id53SttZhi.jpeg" alt="Jetbrains logo" />
       </a>
     </td>
     <td>
-      <a href="https://www.embie.be/?ref=belgattitude" target="_blank">
+      <a href="https://www.embie.be/?ref=Anulesh" target="_blank">
         <img width="65" src="https://avatars.githubusercontent.com/u/98402122?s=200&v=4" alt="Jetbrains logo" />    
       </a>
     </td>
     <td>
-      <a href="https://www.vercel.com/?ref=belgattitude" target="_blank">
+      <a href="https://www.vercel.com/?ref=Anulesh" target="_blank">
         <img width="65" src="https://avatars.githubusercontent.com/u/14985020?s=200&v=4" alt="Vercel logo" />    
       </a>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://www.jetbrains.com/?ref=belgattitude" target="_blank">JetBrains</a>
+      <a href="https://www.jetbrains.com/?ref=Anulesh" target="_blank">JetBrains</a>
     </td>
     <td align="center">
-      <a href="https://www.embie.be/?ref=belgattitude" target="_blank">Embie.be</a>
+      <a href="https://www.embie.be/?ref=Anulesh" target="_blank">Embie.be</a>
     </td>
     <td align="center">
-      <a href="https://vercel.com/?ref=belgattitude" target="_blank">Vercel</a>
+      <a href="https://vercel.com/?ref=Anulesh" target="_blank">Vercel</a>
     </td>
    </tr>
 </table>
@@ -82,7 +76,7 @@ yarn install
 
 ## Structure
 
-[![Open in Gitpod](https://img.shields.io/badge/Open%20In-Gitpod.io-%231966D2?style=for-the-badge&logo=gitpod)](https://gitpod.io/#https://github.com/nerdcosmic/slipgen-monorepo)
+[![Open in Gitpod](https://img.shields.io/badge/Open%20In-Gitpod.io-%231966D2?style=for-the-badge&logo=gitpod)](https://gitpod.io/#https://github.com/Anulesh/file-explorer)
 
 ```
 .
@@ -196,7 +190,7 @@ yarn install
 
 ```json5
 {
-  "name": "slipgen-monorepo",
+  "name": "file-explorer",
   // Set the directories where your apps, packages will be placed
   "workspaces": ["apps/*", "packages/*"],
   //...

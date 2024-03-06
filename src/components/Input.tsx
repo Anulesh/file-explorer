@@ -1,13 +1,8 @@
 import { type ChangeEvent, type KeyboardEvent, useState } from 'react';
 import styles from '../styles.module.css';
+import { InputProps } from '../interfaces/fileFolder.interface';
 
-interface Props {
-  defaultValue?: string;
-  onComplete: (value: string) => void;
-  validateNode: (name: string) => boolean;
-}
-
-function Input({ onComplete, validateNode, defaultValue = '' }: Props) {
+function Input({ onComplete, validateNode, defaultValue = '' }: InputProps) {
   const [value, setValue] = useState(defaultValue);
   const [error, setError] = useState<string | null>(null);
 

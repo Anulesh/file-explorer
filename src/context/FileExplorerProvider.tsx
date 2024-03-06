@@ -1,28 +1,15 @@
 import { createContext, useContext, useReducer } from 'react';
 import {
+  ActionType,
+  ExploreValueContext,
   FileOrFolder,
   FileOrFolderNull,
 } from '../interfaces/fileFolder.interface';
 import { fileFolderData } from '../data/data';
 import { produce } from 'immer';
-type ExploreValueContext = {
-  filesList: FileOrFolderNull;
-  validateNode: (
-    parent: FileOrFolderNull,
-    node: FileOrFolder | null,
-    name: string
-  ) => boolean;
-};
+
 const ExplorerContext = createContext<Partial<ExploreValueContext>>({});
-type Payload = {
-  parent: FileOrFolderNull;
-  node: FileOrFolder;
-  name?: string;
-};
-type ActionType = {
-  type: 'add' | 'update' | 'delete';
-  payload: Payload;
-};
+
 const ExplorerDispatchContext = createContext<React.Dispatch<ActionType>>(
   () => {}
 );

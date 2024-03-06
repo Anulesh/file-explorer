@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { FileExplorerProvider } from './apis/FileExplorerProvider';
+import { FileExplorerProvider } from './context/FileExplorerProvider';
 import Home from './Home';
 
 function App() {

@@ -1,15 +1,14 @@
 import Input from './Input';
 import styles from '../styles.module.css';
 import { useState } from 'react';
-import { FileOrFolder } from '../interfaces/fileFolder.interface';
-import { useExplorer, useExplorerDispatch } from '../apis/FileExplorerProvider';
+import { FilePropsType } from '../interfaces/fileFolder.interface';
+import {
+  useExplorer,
+  useExplorerDispatch,
+} from '../context/FileExplorerProvider';
+import { icons } from '../constansts';
 
-interface Props {
-  node: FileOrFolder;
-  parent: FileOrFolder;
-}
-
-function File({ node, parent }: Props) {
+function File({ node, parent }: FilePropsType) {
   const explorer = useExplorer();
   const explorerDispatch = useExplorerDispatch();
   const [isEditable, setIsEditable] = useState(false);
@@ -45,16 +44,18 @@ function File({ node, parent }: Props) {
 
   return (
     <li className={styles.list}>
-      <button className={styles.button}>📄 {node.name}</button>
+      <button className={styles.button}>
+        {icons.file} {node.name}
+      </button>
 
       <div className={styles.controls}>
-        <button onClick={() => setIsEditable(true)}>✏️</button>
+        <button onClick={() => setIsEditable(true)}>{icons.edit}</button>
         <button
           onClick={() =>
             explorerDispatch({ type: 'delete', payload: { parent, node } })
           }
         >
-          🗑️
+          {icons.delete}
         </button>
       </div>
     </li>

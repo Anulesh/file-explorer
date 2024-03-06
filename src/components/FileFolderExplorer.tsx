@@ -8,7 +8,11 @@ import {
   FileOrFolder,
   FileOrFolderNull,
 } from '../interfaces/fileFolder.interface';
-import { useExplorer, useExplorerDispatch } from '../apis/FileExplorerProvider';
+import {
+  useExplorer,
+  useExplorerDispatch,
+} from '../context/FileExplorerProvider';
+import { icons } from '../constansts';
 
 interface Props {
   node: FileOrFolder;
@@ -83,7 +87,7 @@ function FileFolderExplorer({ node, parent }: Props) {
 
           {isNewFileFolder && (
             <li className={`${styles.list} ${styles.editList}`}>
-              {folderRef.current ? '📁' : '📄'}&nbsp;
+              {folderRef.current ? icons.folder : icons.file}&nbsp;
               <EditName onComplete={onAdd} validateNode={validateNodeOnNew} />
             </li>
           )}

@@ -1,4 +1,4 @@
-import { useExplorer } from './apis/FileExplorerProvider';
+import { useExplorer } from './context/FileExplorerProvider';
 import FileFolderExplorer from './components/FileFolderExplorer';
 import Search from './components/Search';
 

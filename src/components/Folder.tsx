@@ -6,7 +6,11 @@ import {
   FileOrFolder,
   FileOrFolderNull,
 } from '../interfaces/fileFolder.interface';
-import { useExplorer, useExplorerDispatch } from '../apis/FileExplorerProvider';
+import {
+  useExplorer,
+  useExplorerDispatch,
+} from '../context/FileExplorerProvider';
+import { icons } from '../constansts';
 
 interface Props {
   open: boolean;
@@ -42,7 +46,7 @@ function Folder({ open, toggleOpen, parent, node, onNew }: Props) {
   if (isEditable) {
     return (
       <li className={`${styles.list} ${styles.editList}`}>
-        {open ? '📂' : '📁'}&nbsp;
+        {open ? icons.folderOpen : icons.folder}&nbsp;
         <Input
           defaultValue={node?.name}
           onComplete={onUpdate}
@@ -55,27 +59,26 @@ function Folder({ open, toggleOpen, parent, node, onNew }: Props) {
   return (
     <li className={styles.list} data-root={parent === null}>
       <button onClick={toggleOpen}>
-        {open ? '📂' : '📁'} {node?.name}
+        {open ? icons.folderOpen : icons.folder} {node?.name}
       </button>
 
       <div className={styles.controls}>
         <button className="edit" onClick={() => setIsEditable(true)}>
-          ✏️
+          {icons.edit}
         </button>
         <button className="new-file" onClick={() => onNew(false)}>
-          📄
+          {icons.newFile}
         </button>
         <button className="new-folder" onClick={() => onNew(true)}>
-          🗂
+          {icons.newFolder}
         </button>
         <button
           className="delete"
-          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
           onClick={() =>
             explorerDispatch({ type: 'delete', payload: { parent, node } })
           }
         >
-          🗑️
+          {icons.delete}
         </button>
       </div>
     </li>

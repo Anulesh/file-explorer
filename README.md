@@ -1,10 +1,10 @@
 <div align="center">
-  <h1 align="center"><a aria-label="Slipgen Monorepo" href="https://github.com/nerdcosmic/slipgen-monorepo">Slipgen Monorepo</a></h1>
-  <p align="center"><strong>Slipgen UI and App monorepo package</strong></p>
+  <h1 align="center"><a aria-label="File Explorer" href="https://github.com/Anulesh/file-explorer">Slipgen Monorepo</a></h1>
+  <p align="center"><strong>File Explorer with fuzzy search</strong></p>
 </div>
 <p align="center">
-  <a aria-label="Build" href="https://github.com/nerdcosmic/slipgen-monorepo/actions?query=workflow%3ACI">
-    <img alt="GitHub branch checks state" src="https://img.shields.io/github/checks-status/belgattitude/slipgen-monorepo/main?label=CI&logo=github&style=flat-square">
+  <a aria-label="Build" href="https://github.com/Anulesh/file-explorer/actions/workflows/node.js.yml?query=workflow%3A%22%22File+Explorer%22%22++">
+    <img alt="GitHub branch checks state" src="https://img.shields.io/github/checks-status/Anulesh/file-explorer/main?label=CI&logo=github&style=flat-square">
   </a>
   <a aria-label="Codefactor grade" href=https://www.codefactor.io/repository/github/belgattitude/slipgen-monorepo">
     <img alt="Codefactor" src="https://img.shields.io/codefactor/grade/github/belgattitude/slipgen-monorepo?label=Codefactor&logo=codefactor&style=flat-quare&labelColor=000000" />

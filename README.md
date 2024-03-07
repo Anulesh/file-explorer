@@ -62,9 +62,7 @@ yarn install
 <summary>Run cypress test locally</summary>
 
 ```bash
-{
   yarn cypress open
-}
 ```
 
 </details>
@@ -79,14 +77,14 @@ Follow the instructions... and commit the changeset file. A "Version Packages" P
 When merging it, a [github action](./.github/workflows/release-or-version-pr.yml) will publish the packages
 with resulting semver version and generate CHANGELOGS.
 
-## 5. Quality
+## 3. Quality
 
-### 5.1 Hooks / Lint-staged
+### 3.1 Hooks / Lint-staged
 
 Check the [.husky](./.husky) folder content to see what hooks are enabled. Lint-staged is used to guarantee
 that lint and prettier are applied automatically on commit and/or pushes.
 
-### 5.3 Tests
+### 3.2 Tests
 
 Tests relies on cypress. All setups supports typescript path aliases.
 
@@ -95,9 +93,9 @@ example see
 
 - [./cypress.config.ts](./cypress.config.ts).
 
-### 5.4 CI
+### 3.3 CI
 
-Wrokflow file explorer is defined in github action in [.github/workflows](./.github/workflows).
+Workflow file explorer is defined in github action in [.github/workflows](./.github/workflows).
 Currently it is doing following
 
 - Run the build.
@@ -105,11 +103,11 @@ Currently it is doing following
 
 More will be added soon
 
-## 7. Deploy
+## 4. Deploy
 
 ### NETLIFY
 
-Added soon.
+Will be added soon.
 
 ## License
 

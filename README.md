@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center"><a aria-label="File Explorer" href="https://github.com/Anulesh/file-explorer">Slipgen Monorepo</a></h1>
+  <h1 align="center"><a aria-label="File Explorer" href="https://github.com/Anulesh/file-explorer">File Explorer</a></h1>
   <p align="center"><strong>File Explorer with fuzzy search</strong></p>
 </div>
 <p align="center">

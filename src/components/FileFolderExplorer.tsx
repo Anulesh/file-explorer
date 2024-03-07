@@ -19,7 +19,7 @@ interface Props {
   parent: FileOrFolderNull;
 }
 
-function FileFolderExplorer({ node, parent }: Props) {
+const FileFolderExplorer = ({ node, parent }: Props) => {
   const explorer = useExplorer();
   const explorerDispatch = useExplorerDispatch();
   const [open, setOpen] = useState(false);
@@ -95,6 +95,6 @@ function FileFolderExplorer({ node, parent }: Props) {
       )}
     </div>
   );
-}
+};
 
 export default FileFolderExplorer;

@@ -102,7 +102,7 @@ More will be added soon
 
 ### NETLIFY
 
-Preview Link : [Demo](https://65e9089d08e78b790fca549f--file-explorer-fuzzy.netlify.app/)
+Preview Link : [Demo](https://file-explorer-fuzzy.netlify.app/)
 
 ## License
 

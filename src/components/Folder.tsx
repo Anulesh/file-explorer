@@ -58,7 +58,13 @@ function Folder({ open, toggleOpen, parent, node, onNew }: Props) {
 
   return (
     <li className={styles.list} data-root={parent === null}>
-      <button onClick={toggleOpen}>
+      <button
+        onClick={toggleOpen}
+        onContextMenu={(e) => {
+          e.preventDefault(); // prevent the default behaviour when right clicked
+          console.log('Right Click');
+        }}
+      >
         {open ? icons.folderOpen : icons.folder} {node?.name}
       </button>
 

@@ -34,6 +34,9 @@ Useful to
 - Clarify some **advantages** of monorepos (team cohesion, consistency, duplication, refactorings, atomic commits...).
 - Create nextjs/vercel/prisma... bug reports with **reproducible examples** _(initial goal of this repo)_.
 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAnulesh%2Ffile-explorer.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FAnulesh%2Ffile-explorer?ref=badge_large)
+
 ### Special thanks to
 
 <table>
@@ -77,6 +80,7 @@ yarn install
 ## Structure
 
 [![Open in Gitpod](https://img.shields.io/badge/Open%20In-Gitpod.io-%231966D2?style=for-the-badge&logo=gitpod)](https://gitpod.io/#https://github.com/Anulesh/file-explorer)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAnulesh%2Ffile-explorer.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FAnulesh%2Ffile-explorer?ref=badge_shield)
 
 ```
 .

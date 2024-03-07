@@ -6,6 +6,9 @@
   <a aria-label="Build" href="https://github.com/Anulesh/file-explorer/actions/workflows/node.js.yml?query=workflow%3A%22%22File+Explorer%22%22++">
     <img alt="GitHub branch checks state" src="https://img.shields.io/github/checks-status/Anulesh/file-explorer/main?label=CI&logo=github&style=flat-square">
   </a>
+  <a aria-label="Deploy" href="https://app.netlify.com/sites/file-explorer-fuzzy/deploys">
+    <img alt="GitHub branch checks state" src="https://api.netlify.com/api/v1/badges/1f2e10ab-82d6-46e7-ba0c-019ce2544934/deploy-status">
+  </a>
   <a aria-label="Codefactor grade" href="https://www.codefactor.io/repository/github/Anulesh/file-explorer">
     <img alt="Codefactor" src="https://img.shields.io/codefactor/grade/github/Anulesh/file-explorer?label=Codefactor&logo=codefactor&style=flat-quare&labelColor=000000" />
   </a>
